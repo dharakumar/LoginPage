@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		A92FE0811DECFB8400F4447C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0801DECFB8400F4447C /* main.m */; };
 		A92FE0841DECFB8400F4447C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0831DECFB8400F4447C /* AppDelegate.m */; };
-		A92FE0871DECFB8400F4447C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0861DECFB8400F4447C /* ViewController.m */; };
 		A92FE08A1DECFB8400F4447C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92FE0881DECFB8400F4447C /* Main.storyboard */; };
 		A92FE08C1DECFB8400F4447C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92FE08B1DECFB8400F4447C /* Assets.xcassets */; };
 		A92FE08F1DECFB8400F4447C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92FE08D1DECFB8400F4447C /* LaunchScreen.storyboard */; };
+		A92FE0981DECFBF900F4447C /* LPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0971DECFBF900F4447C /* LPViewController.m */; };
+		A92FE09B1DED04E600F4447C /* SignUPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE09A1DED04E600F4447C /* SignUPViewController.m */; };
+		A92FE0A01DED3A9C00F4447C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE09F1DED3A9C00F4447C /* User.m */; };
+		A92FE0A31DED482500F4447C /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0A21DED482500F4447C /* MyAccountViewController.m */; };
+		A9FE34B31DEE10A300F1D38A /* NSString+MD5Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE34B21DEE10A300F1D38A /* NSString+MD5Conversion.m */; };
+		A9FE34B81DEE16EB00F1D38A /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE34B71DEE16EB00F1D38A /* SuccessViewController.m */; };
+		A9FE34BD1DEE1F7600F1D38A /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FE34BC1DEE1F7600F1D38A /* Second.storyboard */; };
+		A9FE34E81DEE651E00F1D38A /* UserDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE34E71DEE651E00F1D38A /* UserDB.m */; };
+		A9FE34EB1DEE7AA000F1D38A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE34EA1DEE7AA000F1D38A /* libsqlite3.0.tbd */; };
+		A9FE34ED1DEE7AA800F1D38A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE34EC1DEE7AA800F1D38A /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,27 @@
 		A92FE0801DECFB8400F4447C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A92FE0821DECFB8400F4447C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A92FE0831DECFB8400F4447C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A92FE0851DECFB8400F4447C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A92FE0861DECFB8400F4447C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A92FE0891DECFB8400F4447C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A92FE08B1DECFB8400F4447C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A92FE08E1DECFB8400F4447C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A92FE0901DECFB8400F4447C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92FE0961DECFBF900F4447C /* LPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPViewController.h; sourceTree = "<group>"; };
+		A92FE0971DECFBF900F4447C /* LPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPViewController.m; sourceTree = "<group>"; };
+		A92FE0991DED04E600F4447C /* SignUPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUPViewController.h; sourceTree = "<group>"; };
+		A92FE09A1DED04E600F4447C /* SignUPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUPViewController.m; sourceTree = "<group>"; };
+		A92FE09E1DED3A9C00F4447C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = LoginPage/User.h; sourceTree = "<group>"; };
+		A92FE09F1DED3A9C00F4447C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = LoginPage/User.m; sourceTree = "<group>"; };
+		A92FE0A11DED482500F4447C /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		A92FE0A21DED482500F4447C /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		A9FE34B11DEE10A300F1D38A /* NSString+MD5Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Conversion.h"; sourceTree = "<group>"; };
+		A9FE34B21DEE10A300F1D38A /* NSString+MD5Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Conversion.m"; sourceTree = "<group>"; };
+		A9FE34B61DEE16EB00F1D38A /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		A9FE34B71DEE16EB00F1D38A /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		A9FE34BC1DEE1F7600F1D38A /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		A9FE34E61DEE651E00F1D38A /* UserDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDB.h; sourceTree = "<group>"; };
+		A9FE34E71DEE651E00F1D38A /* UserDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDB.m; sourceTree = "<group>"; };
+		A9FE34EA1DEE7AA000F1D38A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A9FE34EC1DEE7AA800F1D38A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FE34ED1DEE7AA800F1D38A /* libsqlite3.tbd in Frameworks */,
+				A9FE34EB1DEE7AA000F1D38A /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +68,10 @@
 		A92FE0731DECFB8400F4447C = {
 			isa = PBXGroup;
 			children = (
-				A92FE07E1DECFB8400F4447C /* LoginPage */,
+				A92FE09C1DED245600F4447C /* Model */,
+				A92FE07E1DECFB8400F4447C /* Views */,
 				A92FE07D1DECFB8400F4447C /* Products */,
+				A9FE34E91DEE7A9F00F1D38A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,19 +83,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A92FE07E1DECFB8400F4447C /* LoginPage */ = {
+		A92FE07E1DECFB8400F4447C /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				A92FE0821DECFB8400F4447C /* AppDelegate.h */,
 				A92FE0831DECFB8400F4447C /* AppDelegate.m */,
-				A92FE0851DECFB8400F4447C /* ViewController.h */,
-				A92FE0861DECFB8400F4447C /* ViewController.m */,
 				A92FE0881DECFB8400F4447C /* Main.storyboard */,
+				A9FE34E61DEE651E00F1D38A /* UserDB.h */,
+				A9FE34E71DEE651E00F1D38A /* UserDB.m */,
+				A9FE34BC1DEE1F7600F1D38A /* Second.storyboard */,
+				A92FE0A11DED482500F4447C /* MyAccountViewController.h */,
+				A92FE0A21DED482500F4447C /* MyAccountViewController.m */,
+				A92FE0991DED04E600F4447C /* SignUPViewController.h */,
+				A92FE09A1DED04E600F4447C /* SignUPViewController.m */,
+				A92FE0961DECFBF900F4447C /* LPViewController.h */,
+				A92FE0971DECFBF900F4447C /* LPViewController.m */,
+				A9FE34B61DEE16EB00F1D38A /* SuccessViewController.h */,
+				A9FE34B71DEE16EB00F1D38A /* SuccessViewController.m */,
 				A92FE08B1DECFB8400F4447C /* Assets.xcassets */,
 				A92FE08D1DECFB8400F4447C /* LaunchScreen.storyboard */,
 				A92FE0901DECFB8400F4447C /* Info.plist */,
 				A92FE07F1DECFB8400F4447C /* Supporting Files */,
 			);
+			name = Views;
 			path = LoginPage;
 			sourceTree = "<group>";
 		};
@@ -77,6 +115,26 @@
 				A92FE0801DECFB8400F4447C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A92FE09C1DED245600F4447C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9FE34B11DEE10A300F1D38A /* NSString+MD5Conversion.h */,
+				A9FE34B21DEE10A300F1D38A /* NSString+MD5Conversion.m */,
+				A92FE09E1DED3A9C00F4447C /* User.h */,
+				A92FE09F1DED3A9C00F4447C /* User.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A9FE34E91DEE7A9F00F1D38A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FE34EC1DEE7AA800F1D38A /* libsqlite3.tbd */,
+				A9FE34EA1DEE7AA000F1D38A /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +198,7 @@
 				A92FE08F1DECFB8400F4447C /* LaunchScreen.storyboard in Resources */,
 				A92FE08C1DECFB8400F4447C /* Assets.xcassets in Resources */,
 				A92FE08A1DECFB8400F4447C /* Main.storyboard in Resources */,
+				A9FE34BD1DEE1F7600F1D38A /* Second.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92FE0871DECFB8400F4447C /* ViewController.m in Sources */,
+				A92FE09B1DED04E600F4447C /* SignUPViewController.m in Sources */,
+				A92FE0981DECFBF900F4447C /* LPViewController.m in Sources */,
+				A9FE34B81DEE16EB00F1D38A /* SuccessViewController.m in Sources */,
+				A9FE34B31DEE10A300F1D38A /* NSString+MD5Conversion.m in Sources */,
+				A9FE34E81DEE651E00F1D38A /* UserDB.m in Sources */,
+				A92FE0A01DED3A9C00F4447C /* User.m in Sources */,
 				A92FE0841DECFB8400F4447C /* AppDelegate.m in Sources */,
 				A92FE0811DECFB8400F4447C /* main.m in Sources */,
+				A92FE0A31DED482500F4447C /* MyAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +374,7 @@
 				A92FE0951DECFB8400F4447C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
