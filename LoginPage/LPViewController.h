@@ -10,6 +10,7 @@
 #import "MyAccountViewController.h"
 #import "NSString+MD5Conversion.h"
 #import "UserDB.h"
+#import "NSString+Sha1.h"
 
 @interface LPViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nameText;

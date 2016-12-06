@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ListItemsViewController.h"
+#import "AppDelegate.h"
+#import "Customer+CoreDataProperties.h"
+#import "AddListViewController.h"
 
 @interface MyAccountViewController : UIViewController
 - (IBAction)NewST:(id)sender;
+- (IBAction)ListItems:(id)sender;
 @property (nonatomic,strong) NSString *account;
 @end

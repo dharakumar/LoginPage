@@ -11,6 +11,9 @@
 #import "MyAccountViewController.h"
 #import "NSString+MD5Conversion.h"
 #import "UserDB.h"
+#import "AppDelegate.h"
+#import "Customer+CoreDataProperties.h"
+#import "NSString+Sha1.h"
 
 @interface SignUPViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nameText;

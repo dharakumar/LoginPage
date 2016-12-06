@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"View Controller 1 Loaded");
+   // UIImage *backgroundImage = [UIImage imageNamed:@"img1.jpeg"];
+   // UIImageView *backgroundImageView=[[UIImageView alloc]initWithFrame:self.view.frame];
+  //  backgroundImageView.image=backgroundImage;
+  //  [self.view insertSubview:backgroundImageView atIndex:0];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.nameText.text = [defaults objectForKey:@"LastEntName"];
+    self.pwdText.secureTextEntry = YES;
+  
      }
 
 - (void)didReceiveMemoryWarning {
@@ -42,22 +51,25 @@
 
 
 - (IBAction)SignINPressed:(id)sender {
-    /*
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSString *passwordMD5 = [self.pwdText.text MD5];
     
-    NSString *password =[defaults objectForKey:self.nameText.text];
-     */
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:self.nameText.text forKey:@"LastEntName"];
+   
     
     //Convert the password to NSString of MD5 Hash value
-    NSString *passwordMD5 = [self.pwdText.text MD5];
+   // NSString *passwordMD5 = [self.pwdText.text MD5];
     
+    
+    //Convert string into sha1 hash value
+    NSString *passwordSha1 = [self.pwdText.text sha1];
+
     //Query the DataBase to fetch the password
     UserDB *userDBObj = [[UserDB alloc]init];
     NSString *password = [userDBObj FindDB:self.nameText.text];
     
 
-    if([password isEqualToString:passwordMD5])
+    if([password isEqualToString:passwordSha1])
 
     {
         NSLog(@"Successfuly sign In");

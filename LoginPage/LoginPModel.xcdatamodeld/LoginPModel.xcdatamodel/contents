@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Customer" representedClassName="Customer" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="buy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Items" inverseName="purchase_by" inverseEntity="Items" syncable="YES"/>
+    </entity>
+    <entity name="Items" representedClassName="Items" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="purchase_by" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Customer" inverseName="buy" inverseEntity="Customer" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Customer" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Items" positionX="97" positionY="90" width="128" height="90"/>
+    </elements>
+</model>

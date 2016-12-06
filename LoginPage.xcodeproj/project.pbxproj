@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840AA08E1DF5472A00A43C2A /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = 840AA08D1DF5472A00A43C2A /* NSString+Sha1.m */; };
+		8411FFA31DF29454001C1AE8 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8411FFA21DF29454001C1AE8 /* splash.png */; };
+		8411FFA51DF295AF001C1AE8 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8411FFA41DF295AF001C1AE8 /* splash@2x.png */; };
+		8411FFAD1DF29CE4001C1AE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8411FFAC1DF29CE4001C1AE8 /* Default.png */; };
+		8411FFAF1DF2A01B001C1AE8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8411FFAE1DF2A01B001C1AE8 /* Launch Screen.storyboard */; };
+		A92C394F1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A92C394D1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodeld */; };
+		A92C39611DF0BB3F0096E1C5 /* Customer+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A92C395F1DF0BB3F0096E1C5 /* Customer+CoreDataProperties.m */; };
+		A92C396A1DF0BBB80096E1C5 /* Items+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A92C39691DF0BBB80096E1C5 /* Items+CoreDataProperties.m */; };
+		A92C396D1DF0BCA20096E1C5 /* AddListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92C396C1DF0BCA20096E1C5 /* AddListViewController.m */; };
 		A92FE0811DECFB8400F4447C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0801DECFB8400F4447C /* main.m */; };
 		A92FE0841DECFB8400F4447C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0831DECFB8400F4447C /* AppDelegate.m */; };
 		A92FE08A1DECFB8400F4447C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92FE0881DECFB8400F4447C /* Main.storyboard */; };
@@ -16,15 +25,31 @@
 		A92FE09B1DED04E600F4447C /* SignUPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE09A1DED04E600F4447C /* SignUPViewController.m */; };
 		A92FE0A01DED3A9C00F4447C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE09F1DED3A9C00F4447C /* User.m */; };
 		A92FE0A31DED482500F4447C /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A92FE0A21DED482500F4447C /* MyAccountViewController.m */; };
+		A954075A1DF120470024EB89 /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A95407591DF120470024EB89 /* ListViewCell.m */; };
+		A954075D1DF1216C0024EB89 /* ListItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A954075C1DF1216C0024EB89 /* ListItemsViewController.m */; };
 		A9FE34B31DEE10A300F1D38A /* NSString+MD5Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE34B21DEE10A300F1D38A /* NSString+MD5Conversion.m */; };
 		A9FE34B81DEE16EB00F1D38A /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE34B71DEE16EB00F1D38A /* SuccessViewController.m */; };
 		A9FE34BD1DEE1F7600F1D38A /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FE34BC1DEE1F7600F1D38A /* Second.storyboard */; };
 		A9FE34E81DEE651E00F1D38A /* UserDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE34E71DEE651E00F1D38A /* UserDB.m */; };
 		A9FE34EB1DEE7AA000F1D38A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE34EA1DEE7AA000F1D38A /* libsqlite3.0.tbd */; };
 		A9FE34ED1DEE7AA800F1D38A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FE34EC1DEE7AA800F1D38A /* libsqlite3.tbd */; };
+		A9FE34EF1DEEAC9700F1D38A /* img1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9FE34EE1DEEAC9700F1D38A /* img1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840AA08C1DF5472A00A43C2A /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
+		840AA08D1DF5472A00A43C2A /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
+		8411FFA21DF29454001C1AE8 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		8411FFA41DF295AF001C1AE8 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		8411FFAC1DF29CE4001C1AE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8411FFAE1DF2A01B001C1AE8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A92C394E1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginPModel.xcdatamodel; sourceTree = "<group>"; };
+		A92C395E1DF0BB3F0096E1C5 /* Customer+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Customer+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A92C395F1DF0BB3F0096E1C5 /* Customer+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Customer+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A92C39681DF0BBB80096E1C5 /* Items+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Items+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A92C39691DF0BBB80096E1C5 /* Items+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Items+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A92C396B1DF0BCA20096E1C5 /* AddListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddListViewController.h; sourceTree = "<group>"; };
+		A92C396C1DF0BCA20096E1C5 /* AddListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddListViewController.m; sourceTree = "<group>"; };
 		A92FE07C1DECFB8400F4447C /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92FE0801DECFB8400F4447C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A92FE0821DECFB8400F4447C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +66,10 @@
 		A92FE09F1DED3A9C00F4447C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = LoginPage/User.m; sourceTree = "<group>"; };
 		A92FE0A11DED482500F4447C /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
 		A92FE0A21DED482500F4447C /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		A95407581DF120470024EB89 /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		A95407591DF120470024EB89 /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		A954075B1DF1216C0024EB89 /* ListItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemsViewController.h; sourceTree = "<group>"; };
+		A954075C1DF1216C0024EB89 /* ListItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemsViewController.m; sourceTree = "<group>"; };
 		A9FE34B11DEE10A300F1D38A /* NSString+MD5Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Conversion.h"; sourceTree = "<group>"; };
 		A9FE34B21DEE10A300F1D38A /* NSString+MD5Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Conversion.m"; sourceTree = "<group>"; };
 		A9FE34B61DEE16EB00F1D38A /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
@@ -50,6 +79,7 @@
 		A9FE34E71DEE651E00F1D38A /* UserDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDB.m; sourceTree = "<group>"; };
 		A9FE34EA1DEE7AA000F1D38A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A9FE34EC1DEE7AA800F1D38A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A9FE34EE1DEEAC9700F1D38A /* img1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +98,12 @@
 		A92FE0731DECFB8400F4447C = {
 			isa = PBXGroup;
 			children = (
+				840AA08C1DF5472A00A43C2A /* NSString+Sha1.h */,
+				840AA08D1DF5472A00A43C2A /* NSString+Sha1.m */,
+				A92C39681DF0BBB80096E1C5 /* Items+CoreDataProperties.h */,
+				A92C39691DF0BBB80096E1C5 /* Items+CoreDataProperties.m */,
+				A92C395E1DF0BB3F0096E1C5 /* Customer+CoreDataProperties.h */,
+				A92C395F1DF0BB3F0096E1C5 /* Customer+CoreDataProperties.m */,
 				A92FE09C1DED245600F4447C /* Model */,
 				A92FE07E1DECFB8400F4447C /* Views */,
 				A92FE07D1DECFB8400F4447C /* Products */,
@@ -87,11 +123,20 @@
 			isa = PBXGroup;
 			children = (
 				A92FE0821DECFB8400F4447C /* AppDelegate.h */,
+				A92C394D1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodeld */,
 				A92FE0831DECFB8400F4447C /* AppDelegate.m */,
 				A92FE0881DECFB8400F4447C /* Main.storyboard */,
+				8411FFA21DF29454001C1AE8 /* splash.png */,
 				A9FE34E61DEE651E00F1D38A /* UserDB.h */,
+				8411FFAC1DF29CE4001C1AE8 /* Default.png */,
 				A9FE34E71DEE651E00F1D38A /* UserDB.m */,
 				A9FE34BC1DEE1F7600F1D38A /* Second.storyboard */,
+				A954075B1DF1216C0024EB89 /* ListItemsViewController.h */,
+				A954075C1DF1216C0024EB89 /* ListItemsViewController.m */,
+				A95407581DF120470024EB89 /* ListViewCell.h */,
+				A95407591DF120470024EB89 /* ListViewCell.m */,
+				A92C396B1DF0BCA20096E1C5 /* AddListViewController.h */,
+				A92C396C1DF0BCA20096E1C5 /* AddListViewController.m */,
 				A92FE0A11DED482500F4447C /* MyAccountViewController.h */,
 				A92FE0A21DED482500F4447C /* MyAccountViewController.m */,
 				A92FE0991DED04E600F4447C /* SignUPViewController.h */,
@@ -101,6 +146,9 @@
 				A9FE34B61DEE16EB00F1D38A /* SuccessViewController.h */,
 				A9FE34B71DEE16EB00F1D38A /* SuccessViewController.m */,
 				A92FE08B1DECFB8400F4447C /* Assets.xcassets */,
+				8411FFAE1DF2A01B001C1AE8 /* Launch Screen.storyboard */,
+				8411FFA41DF295AF001C1AE8 /* splash@2x.png */,
+				A9FE34EE1DEEAC9700F1D38A /* img1.jpeg */,
 				A92FE08D1DECFB8400F4447C /* LaunchScreen.storyboard */,
 				A92FE0901DECFB8400F4447C /* Info.plist */,
 				A92FE07F1DECFB8400F4447C /* Supporting Files */,
@@ -195,9 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FE34EF1DEEAC9700F1D38A /* img1.jpeg in Resources */,
 				A92FE08F1DECFB8400F4447C /* LaunchScreen.storyboard in Resources */,
 				A92FE08C1DECFB8400F4447C /* Assets.xcassets in Resources */,
+				8411FFAF1DF2A01B001C1AE8 /* Launch Screen.storyboard in Resources */,
+				8411FFAD1DF29CE4001C1AE8 /* Default.png in Resources */,
 				A92FE08A1DECFB8400F4447C /* Main.storyboard in Resources */,
+				8411FFA51DF295AF001C1AE8 /* splash@2x.png in Resources */,
+				8411FFA31DF29454001C1AE8 /* splash.png in Resources */,
 				A9FE34BD1DEE1F7600F1D38A /* Second.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,13 +263,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92FE09B1DED04E600F4447C /* SignUPViewController.m in Sources */,
+				A954075D1DF1216C0024EB89 /* ListItemsViewController.m in Sources */,
 				A92FE0981DECFBF900F4447C /* LPViewController.m in Sources */,
 				A9FE34B81DEE16EB00F1D38A /* SuccessViewController.m in Sources */,
 				A9FE34B31DEE10A300F1D38A /* NSString+MD5Conversion.m in Sources */,
 				A9FE34E81DEE651E00F1D38A /* UserDB.m in Sources */,
+				A92C396D1DF0BCA20096E1C5 /* AddListViewController.m in Sources */,
+				A954075A1DF120470024EB89 /* ListViewCell.m in Sources */,
 				A92FE0A01DED3A9C00F4447C /* User.m in Sources */,
+				A92C396A1DF0BBB80096E1C5 /* Items+CoreDataProperties.m in Sources */,
+				840AA08E1DF5472A00A43C2A /* NSString+Sha1.m in Sources */,
 				A92FE0841DECFB8400F4447C /* AppDelegate.m in Sources */,
 				A92FE0811DECFB8400F4447C /* main.m in Sources */,
+				A92C39611DF0BB3F0096E1C5 /* Customer+CoreDataProperties.m in Sources */,
+				A92C394F1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodeld in Sources */,
 				A92FE0A31DED482500F4447C /* MyAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +437,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A92C394D1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A92C394E1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodel */,
+			);
+			currentVersion = A92C394E1DF0BA3E0096E1C5 /* LoginPModel.xcdatamodel */;
+			path = LoginPModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A92FE0741DECFB8400F4447C /* Project object */;
 }

@@ -27,7 +27,7 @@
             if(sqlite3_open(dbasePath, &_dataBase) == SQLITE_OK)
             {
                 char *error ;
-                const char *sql_statement = "CREATE TABLE IF NOT EXISTS userDB (ID INTEGER PRIMARY KEY AUTOINCREMENT ,NAME TEXT UNIQUE , PASSWORD CHAR(32) , PHONE TEXT)";
+                const char *sql_statement = "CREATE TABLE IF NOT EXISTS userDBA (ID INTEGER PRIMARY KEY AUTOINCREMENT ,NAME TEXT UNIQUE , PASSWORD CHAR(32) , PHONE TEXT ,EMAIL TEXT)";
                 if(sqlite3_exec(_dataBase, sql_statement, NULL, NULL, &error)!=SQLITE_OK)
                 {
                     NSLog(@"Cannot create a table");
@@ -52,7 +52,7 @@
     const char *dbasePath = [self.dbPath UTF8String];
     if(sqlite3_open(dbasePath, &_dataBase)== SQLITE_OK)
     {
-        NSString *insert_statement = [NSString stringWithFormat:@"INSERT INTO userDB (name,password ,phone) VALUES (\"%@\",\"%@\",\"%@\")", userObj.name ,userObj.passwordMD5,userObj.phone];
+        NSString *insert_statement = [NSString stringWithFormat:@"INSERT INTO userDBA (name,password ,phone , email) VALUES (\"%@\",\"%@\",\"%@\", \"%@\")", userObj.name ,userObj.passwordMD5,userObj.phone,userObj.email];
         const char *data = [insert_statement UTF8String];
         sqlite3_prepare(self.dataBase, data, -1, &statement, NULL);
         if(sqlite3_step(statement)==SQLITE_DONE)
@@ -78,7 +78,7 @@
     const char *dbasePath = [self.dbPath UTF8String];
     if(sqlite3_open(dbasePath, &_dataBase)== SQLITE_OK)
     {
-        NSString *query_statement = [NSString stringWithFormat:@"SELECT password FROM userDB WHERE name = \"%@\"" , name];
+        NSString *query_statement = [NSString stringWithFormat:@"SELECT password FROM userDBA WHERE name = \"%@\"" , name];
         const char *data = [query_statement UTF8String];
         sqlite3_prepare(self.dataBase, data, -1, &statement, NULL);
         if(sqlite3_step(statement)==SQLITE_ROW)
